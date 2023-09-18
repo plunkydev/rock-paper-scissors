@@ -7,7 +7,10 @@
     } else {
       return "tijeras";
     }
-     }
+};
+// crear variables para llevar la puntuacion del jugador y la cumputadora
+let player = 0;
+let computer = 0;
  console.log(getComputerChoice());
  
  
