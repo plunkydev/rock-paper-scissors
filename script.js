@@ -41,6 +41,14 @@ const game = (play) => {
    } else {return "You lose"}
      
 }
+/*Test para comprobar si la aplicacion cunciona, se llamo
+ a la funcion play y se le paso como parametro la funcion getComputerChoice
+ para que la computadora juegue contra si misma
+*/
+console.log(game(getComputerChoice()));
+console.log(game(getComputerChoice()));
+console.log(game(getComputerChoice()));
+
 
  
  
