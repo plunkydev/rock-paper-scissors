@@ -30,6 +30,17 @@ const playRound = (playerSelection, computerSelection) => {
        return "You loose"
      }
    }
+   //crear una funcion play para jugar 5 rondas y asignar pintuacion a player o a computer segun quien gane.
+
+const game = (play) => {
+   for(let i = 0;i<5;i++) {
+     playRound(play, getComputerChoice());
+   }
+   if(player > computer) {
+     return "You win"
+   } else {return "You lose"}
+     
+}
 
  
  
