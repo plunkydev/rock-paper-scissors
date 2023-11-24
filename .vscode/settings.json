@@ -2,5 +2,6 @@
     "console-ninja.toolsToEnableSupportAutomaticallyFor": {
         "live-server-extension": true
     },
-    "console-ninja.captureFunctions": true
+    "console-ninja.captureFunctions": true,
+    "editor.inlineSuggest.showToolbar": "onHover"
 }
