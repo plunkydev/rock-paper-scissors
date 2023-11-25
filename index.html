@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Piedra, Papel o Tijeras?</h1>
-    <h2>El primero en llegar a 5 puntos Gana.</h2>
-    <div class="puntuacionContiner">
-        <div class="cajaPuntuacion">
-            <div class="eleccionJugador">?</div>
-            <p>Jugador: <span id="jugadorPuntos">0</span></p>
+    <div class="appContiner">
+        <h1>Piedra, Papel o Tijeras?</h1>
+        <h2>El primero en llegar a 5 puntos Gana.</h2>
+        <div class="puntuacionContiner">
+            <div class="cajaPuntuacion">
+                <div class="eleccionJugador">?</div>
+                <p>Jugador: <span id="jugadorPuntos">0</span></p>
+            </div>
+            <div class="cajaPuntuacion">
+                <div class="eleccionPc">?</div>
+                <p>Jugador: <span id="pcPuntos">0</span></p>
+            </div>
         </div>
-        <div class="cajaPuntuacion">
-            <div class="eleccionPc">?</div>
-            <p>Jugador: <span id="pcPuntos">0</span></p>
+        <div class="eleccionContiner">
+            <div id="piedra">&#128074</div>
+            <div id="papel">&#128400</div>
+            <div id="tijera">&#9996</div>
         </div>
     </div>
-    <div class="eleccionContiner">
-        <div id="piedra">&#128074</div>
-        <div id="papel">&#128400</div>
-        <div id="tijera">&#9996</div>
-    </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
