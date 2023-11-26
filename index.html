@@ -12,23 +12,24 @@
     <div class="appContiner">
         <h1>Piedra, Papel o Tijeras?</h1>
         <h2>El primero en llegar a 5 puntos Gana.</h2>
+        <div class="empate"></div>
         <div class="puntuacionContiner">
             <div class="cajaPuntuacion">
                 <div class="eleccionJugador">?</div>
-                <p>Jugador: <span id="jugadorPuntos">0</span></p>
+                <p>Jugador: <span id="jugadorPuntos"></span></p>
             </div>
             <div class="cajaPuntuacion">
                 <div class="eleccionPc">?</div>
-                <p>Jugador: <span id="pcPuntos">0</span></p>
+                <p>Pc: <span id="pcPuntos"></span></p>
             </div>
         </div>
         <div class="eleccionContiner">
-            <button id="piedra">&#128074</button>
-            <button id="papel">&#128400</button>
-            <button id="tijera">&#9996</button>
+            <button onclick="game('piedra')" id="piedra">&#128074</button>
+            <button onclick="game('papel')" id="papel">&#128400</button>
+            <button onclick="game('tijera')" id="tijera">&#9996</button>
         </div>
     </div>
-
+    
     <script src="script.js" defer></script>
 </body>
 
