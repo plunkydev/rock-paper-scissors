@@ -86,9 +86,9 @@ const playRound = (playerSelection, computerSelection) => {
 const game = (play) => {
   playRound(play, getComputerChoice());
   if (player == 5) {
-    empate.innerHTML = '<a href="index.html">Ganaste!. Jugar Otra Vez?</a>';
+    empate.innerHTML = '<a href="index.html">Ganaste!. Jugar Otra Vez?\n Click Aqui</a>';
   } else if (computer == 5) {
-    empate.innerHTML = '<a href="index.html">Perdiste. Jugar Otra Vez?</a>';
+    empate.innerHTML = '<a href="index.html">Perdiste. Jugar Otra Vez?\n Click Aqui</a>';
   }
 
 }
